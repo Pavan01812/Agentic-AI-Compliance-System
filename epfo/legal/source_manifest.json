@@ -1,0 +1,68 @@
+{
+  "domain": "EPFO",
+  "version": "1.0",
+  "last_verified": "2026-10-05",
+  "authority": "Employees' Provident Fund Organisation",
+  "sources": [
+    {
+      "source_id": "EPFO_FORM_5A",
+      "title": "Form 5A / Return of Ownership",
+      "authority": "Employees' Provident Fund Organisation",
+      "source_type": "OFFICIAL_EPFO_GUIDANCE",
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/MiscPDFs/Employer_Information_Booklet.pdf",
+      "description": "Official EPFO employer information describing Form 5A, ownership particulars, establishment details and updating requirements.",
+      "status": "ACTIVE",
+      "effective_from": null,
+      "effective_to": null,
+      "last_verified": "2026-10-05"
+    },
+    {
+      "source_id": "EPFO_SCHEME_1952",
+      "title": "Employees' Provident Funds Scheme, 1952",
+      "authority": "Government of India / Employees' Provident Fund Organisation",
+      "source_type": "STATUTORY_SCHEME",
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/EPFScheme.pdf",
+      "description": "Official text of the Employees' Provident Funds Scheme, 1952.",
+      "status": "ACTIVE",
+      "effective_from": null,
+      "effective_to": null,
+      "last_verified": "2026-10-05"
+    },
+    {
+      "source_id": "EPFO_UAN_GUIDANCE",
+      "title": "User Manual on UAN Functions",
+      "authority": "Employees' Provident Fund Organisation",
+      "source_type": "OFFICIAL_EPFO_GUIDANCE",
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/UAN_PDFs/UAN_ForEmployers/UserManual_Ver1.4_Employers_new.pdf",
+      "description": "Official EPFO employer guidance covering UAN functions, member IDs, previous employment/UAN information and first-time membership declarations.",
+      "status": "ACTIVE",
+      "effective_from": null,
+      "effective_to": null,
+      "last_verified": "2026-10-05"
+    },
+    {
+      "source_id": "EPFO_ECR_REVAMP_2025",
+      "title": "Revamped Electronic Challan-cum-Return (ECR)",
+      "authority": "Employees' Provident Fund Organisation",
+      "source_type": "OFFICIAL_EPFO_CIRCULAR",
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/Circulars/Y2025-2026/ECRRevamp_26092025.pdf",
+      "description": "EPFO Circular No. Compliance/ECR Revamp/2025/12997 dated 26 September 2025 introducing the revamped ECR system for wage month September 2025 onwards.",
+      "status": "ACTIVE",
+      "effective_from": "2025-09-01",
+      "effective_to": null,
+      "last_verified": "2026-10-05"
+    },
+    {
+      "source_id": "EPFO_EMPLOYER_PORTAL",
+      "title": "EPFO Employer Unified Portal",
+      "authority": "Employees' Provident Fund Organisation",
+      "source_type": "OFFICIAL_EPFO_PORTAL",
+      "url": "https://unifiedportal-emp.epfindia.gov.in/epfo/",
+      "description": "Official EPFO employer portal providing establishment registration, ECR-related services and employer compliance workflows.",
+      "status": "ACTIVE",
+      "effective_from": null,
+      "effective_to": null,
+      "last_verified": "2026-10-05"
+    }
+  ]
+}

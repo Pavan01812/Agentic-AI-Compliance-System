@@ -1,0 +1,109 @@
+{
+  "case_id": "EPFO-SAMPLE-NONCOMPLIANT-001",
+  "case_name": "Non-Compliant EPFO Establishment",
+  "description": "EPFO case containing objective identity, member, ECR and contribution inconsistencies.",
+  "expected_overall_readiness": "NOT_READY_FOR_FILING",
+
+  "context": {
+    "establishment_code": "1234567",
+    "establishment_name": "ABC Technologies Pvt Ltd",
+    "pan": "ABCDE1234F",
+    "coverage_basis": "EPF_ACT",
+    "registration_date": "2024-04-01",
+    "effective_from": "2024-04-01",
+    "state": "Karnataka",
+    "district": "Bengaluru Urban",
+    "address": "Electronic City, Bengaluru, Karnataka",
+    "employee_count": 2,
+    "assessment_period": "2026-09"
+  },
+
+  "evidence": {
+    "registration": {
+      "establishment_code": "1234567",
+      "establishment_name": "ABC Technologies Pvt Ltd",
+      "pan": "ABCDE1234F",
+      "registration_date": "2024-04-01",
+      "coverage_basis": "EPF_ACT"
+    },
+
+    "form5a": {
+      "establishment_name_as_per_pan": "ABC Technologies Pvt Ltd",
+      "pan": "ABCDE9999F",
+      "coverage_basis": "EPF_ACT",
+      "establishment_code": "1234567",
+      "branches": []
+    },
+
+    "uan_records": [
+      {
+        "uan": "100000000001",
+        "member_id": "KA/BLR/1234567/000001",
+        "employee_name": "Rahul Sharma",
+        "date_of_joining": "2025-01-15",
+        "first_time_member": true,
+        "previous_uan": null,
+        "establishment_code": "1234567"
+      },
+      {
+        "uan": "100000000001",
+        "member_id": "KA/BLR/1234567/000002",
+        "employee_name": "Priya Nair",
+        "date_of_joining": "2025-03-10",
+        "first_time_member": true,
+        "previous_uan": null,
+        "establishment_code": "1234567"
+      }
+    ],
+
+    "ecr": {
+      "period": "2026-08",
+      "establishment_code": "7654321",
+      "ecr_reference": "ECR-2026-08-7654321",
+      "filing_date": "2026-09-10",
+      "status": "REJECTED",
+      "rows": [
+        {
+          "uan": "100000000001",
+          "employee_name": "Rahul Sharma",
+          "establishment_code": "7654321",
+          "wages": 30000,
+          "epf_wages": 35000,
+          "eps_wages": 30000,
+          "edli_wages": 30000,
+          "employee_share": 3600,
+          "employer_share": 3600,
+          "ncp_days": 0
+        },
+        {
+          "uan": "100000000001",
+          "employee_name": "Priya Nair",
+          "establishment_code": "7654321",
+          "wages": 28000,
+          "epf_wages": 28000,
+          "eps_wages": 28000,
+          "edli_wages": 28000,
+          "employee_share": 3360,
+          "employer_share": 3360,
+          "ncp_days": 0
+        }
+      ]
+    },
+
+    "contribution": {
+      "period": "2026-09",
+      "establishment_code": "1234567",
+      "ecr_total": 12960,
+      "employee_total": 6960,
+      "employer_total": 6000,
+      "challan_amount": 14000,
+      "paid_amount": 12000,
+      "trrn": "TRRN202610999999",
+      "payment_date": "2026-10-15",
+      "payment_status": "PARTIALLY_PAID",
+      "transaction_reference": "TXN202610999999",
+      "challan_reference": "CHL-2026-09-999999",
+      "currency": "INR"
+    }
+  }
+}

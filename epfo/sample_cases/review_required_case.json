@@ -1,0 +1,88 @@
+{
+  "case_id": "EPFO-SAMPLE-REVIEW-001",
+  "case_name": "EPFO Case Requiring Human Review",
+  "description": "EPFO case with missing and ambiguous evidence where the system must not infer compliance.",
+  "expected_overall_readiness": "REVIEW_REQUIRED",
+
+  "context": {
+    "establishment_code": "1234567",
+    "establishment_name": "ABC Technologies Pvt Ltd",
+    "pan": "ABCDE1234F",
+    "coverage_basis": null,
+    "registration_date": null,
+    "effective_from": null,
+    "state": "Karnataka",
+    "district": "Bengaluru Urban",
+    "address": null,
+    "employee_count": null,
+    "assessment_period": "2026-09"
+  },
+
+  "evidence": {
+    "registration": {
+      "establishment_code": "1234567",
+      "establishment_name": "ABC Technologies Pvt Ltd",
+      "pan": "ABCDE1234F",
+      "registration_date": null,
+      "coverage_basis": null
+    },
+
+    "form5a": {
+      "establishment_name_as_per_pan": null,
+      "pan": "ABCDE1234F",
+      "coverage_basis": null,
+      "establishment_code": null,
+      "branches": []
+    },
+
+    "uan_records": [
+      {
+        "uan": "100000000004",
+        "member_id": "KA/BLR/1234567/000004",
+        "employee_name": null,
+        "date_of_joining": null,
+        "first_time_member": null,
+        "previous_uan": null,
+        "establishment_code": null
+      }
+    ],
+
+    "ecr": {
+      "period": "2026-09",
+      "establishment_code": "1234567",
+      "ecr_reference": null,
+      "filing_date": null,
+      "status": null,
+      "rows": [
+        {
+          "uan": "100000000004",
+          "employee_name": null,
+          "establishment_code": "1234567",
+          "wages": 30000,
+          "epf_wages": 30000,
+          "eps_wages": 30000,
+          "edli_wages": 30000,
+          "employee_share": 3600,
+          "employer_share": 3600,
+          "ncp_days": 0
+        }
+      ]
+    },
+
+    "contribution": {
+      "period": "2026-09",
+      "establishment_code": "1234567",
+      "ecr_total": 7200,
+      "employee_total": 3600,
+      "employer_total": 3600,
+      "challan_amount": null,
+      "paid_amount": null,
+      "trrn": null,
+      "payment_date": null,
+      "payment_status": null,
+      "transaction_reference": null,
+      "challan_reference": null,
+      "currency": "INR"
+    }
+  }
+}
