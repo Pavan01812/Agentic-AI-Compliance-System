@@ -1,5 +1,7 @@
 # EPFO Compliance Domain
 
+[![CI](https://github.com/Pavan01812/Agentic-AI-Compliance-System/actions/workflows/ci.yml/badge.svg)](https://github.com/Pavan01812/Agentic-AI-Compliance-System/actions/workflows/ci.yml)
+
 ## Overview
 
 The EPFO domain performs deterministic, employer-side EPFO compliance assessment for registration, Form 5A, UAN/member records, ECR, and contribution/challan reconciliation.
